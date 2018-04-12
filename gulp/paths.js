@@ -4,6 +4,7 @@ module.exports = {
         templates: 'src/templates/**/*.pug',
         slides: 'src/slides/*.pug',
         js: 'src/js/**/*.js',
+        video: 'src/videos/**/*',
         styl: 'src/styl/*.styl',
         img: 'src/img/**/*',
         files: {
@@ -24,6 +25,7 @@ module.exports = {
     build: {
       html: './build/',
       js: 'build/js',
+      video: 'build/videos',
       css: 'build/css',
       img: 'build/img',
       notes: 'build/js/vendor/notes/'
